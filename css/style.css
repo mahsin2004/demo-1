@@ -1,0 +1,181 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Work Sans;
+}
+.primary-tittle{
+  width: 288px;
+  color:#151414;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+.second-tittle{
+  color:#151414;
+  /* text-align: center; */
+  font-size: 30px;
+  font-weight: 700;
+}
+/*================
+ common style 
+ =================*/
+h1{
+  width: 100%;
+  height: auto;
+  color: #151414;
+  font-family: Work Sans;
+  font-size: 65px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+.primary-p{
+  color:#444343;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.btn-primary{
+  width: 160px;
+  height: 64px;
+  border-radius: 5px;
+  background:#F15B22;
+  border-style: none;
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 32px;
+}
+/*===================
+ header area
+=====================*/
+.banner{
+  display: flex;
+  background-image: url(../images/banner/banner1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 120vh;
+  justify-content: right;
+}
+
+.info-container{
+  text-align: end;
+  padding: 216px 180px 166px ;
+} 
+
+/*============= 
+Story Area
+===============*/
+
+.story-container{
+  display: flex;
+  align-items: center;
+  gap: 105.22px;
+  justify-content: center;
+  margin-top: 140px;
+}
+/* .img{
+  width: 527.929px;
+  height: 527.929px;
+  border-radius: 527.929px;
+  background-color: rgba(241, 91, 34, 0.20);
+  background-position: center bottom;
+} */
+.story-text{
+  margin-top: 200px;
+}
+.wid{
+  width: 416px;
+}
+.story-text ul{
+  margin-top: 16px;
+  margin-left: 16px;
+}
+
+/*===============
+ Service area 
+================*/
+.service-container{
+  margin-top: 214px;
+  margin-bottom: 135px;
+}
+.service-container > h2{
+  margin: 0 auto;
+  margin-bottom: 80px;
+}
+.service{
+  display: flex;
+  gap: 99px;
+  justify-content: center;
+}
+.service-info{
+ text-align: center;
+}
+.mar{
+  margin-top: 18px;
+}
+
+/*=====================
+ Contact Area 
+=======================*/
+.contact-container{
+  display: flex;
+  background-image: url("../images/watch.png");
+  background-repeat: no-repeat;
+  width: 1140px;
+  height: 300px;
+  border-radius: 8px;
+  margin: 0 auto;
+}
+.contact-info{
+  border-radius: 8px;
+  width: 900px;
+  padding-left: 64px;
+  background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0.00) 100%);
+} 
+.mod{
+  color: #FFF;
+  width: 390px;
+  margin-top: 59px;
+  margin-bottom: -5px;
+
+}
+.btn1{
+  background-color: white;
+  color: #F15B22;
+}
+
+/*===========
+ Footer area 
+=============*/
+.footer-container{
+  display: flex;
+  justify-content: center;
+  gap: 250px;
+  background-color: #151414;
+  margin-top: 150px;
+  color: #FFF;
+  padding: 100px 0px;
+
+}
+.color{
+  color: #FFF;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.text-color{
+  color: #FFF;
+  margin-bottom: 15px;
+}
+.img-m{
+  margin-right: 10px;
+}
+input{
+  width: 200px;
+  height: 30px;
+  border-radius: 5px;
+  padding: 5px 15px;
+}
+.btn2{
+  height: 60px;
+}
